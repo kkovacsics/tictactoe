@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.tictactoe {
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 48px;
+    font-size: 2rem;
+}
+.winner {
+    color: rgb(7, 150, 50);
+    font-weight: bold;
+}
+
+.result {
+    line-height: 3rem;
+}
